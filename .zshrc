@@ -153,7 +153,6 @@ export GPG_TTY
 
 source ~/.helperscripts
 
-source "$HOME/.cargo/env"
 
 
 alias firefox='open /Applications/Firefox.app'
@@ -165,4 +164,4 @@ enc_locate () {
 }
 
 export SOURCERY_KEY=user_6C9_4mBvZKQtS1gorGb_vHgB_uCX1nhgkqrI4mHbEenzor_R_pG_JDOaEVQ
-alias config='/usr/bin/git --git-dir=/Users/mitchelledom/.dotfiles/ --work-tree=/Users/mitchelledom'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
